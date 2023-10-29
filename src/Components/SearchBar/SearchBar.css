@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(245, 245, 245, 0.733);
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 30px 20px;
+}
+
+.search-bar p  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-bar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.search-bar img:hover {
+    opacity: 0.7;
+}
+
+.search-bar p:hover {
+    opacity: 0.7;
+}
