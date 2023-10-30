@@ -1,0 +1,12 @@
+.about {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(245, 245, 245, 0.733);
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.eu {
+    width: 220px;
+}

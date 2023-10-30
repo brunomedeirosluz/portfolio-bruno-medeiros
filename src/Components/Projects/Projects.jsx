@@ -4,7 +4,7 @@ import { projectsData } from "./ProjectsArray";
 function Projects() {
     return (
         <section className="projects">
-          <h3>Projects</h3>
+          <h3> Meu Projetos: </h3>
           <div className="project-cards">
             {projectsData.map((project, index) => (
               <div key={index} className="project-card">

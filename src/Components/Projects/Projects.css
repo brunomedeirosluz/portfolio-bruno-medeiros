@@ -1,6 +1,7 @@
 .projects {
     padding-top: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: rgba(245, 245, 245, 0.733);
     margin: 0 auto;
@@ -11,6 +12,8 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     padding-top: 18px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 .project-cards {

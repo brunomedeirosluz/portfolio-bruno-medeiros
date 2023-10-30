@@ -10,11 +10,5 @@ export const projectsData = [
       title: "App de Receitas",
       imageSrc: "https://www.gov.br/esocial/pt-br/noticias/divulgada-nova-data-para-entrada-em-producao-dos-eventos-de-processos-trabalhistas/calendario-nova-data.jpeg",
       summary: "Aplicativo de Receitas finalizado o Css",
-    },
-    {
-      title: "App de Receitas",
-      imageSrc: "https://www.gov.br/esocial/pt-br/noticias/divulgada-nova-data-para-entrada-em-producao-dos-eventos-de-processos-trabalhistas/calendario-nova-data.jpeg",
-      summary: "Aplicativo de Receitas finalizado o Css",
-    }
-
+    },  
 ];

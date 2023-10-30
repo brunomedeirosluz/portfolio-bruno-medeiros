@@ -1,14 +1,12 @@
 import SearchBar from "../Components/SearchBar/SearchBar";
-
-function About() {
+import About from "../Components/About/About";
+function AboutPage() {
     return (
     <div>
       <SearchBar />
-      <section>
-        
-      </section>
+      <About />
     </div>
     )
 }
 
-export default About;
+export default AboutPage;

@@ -6,10 +6,10 @@ function Sobre() {
     <section className='sobre'>
       <div>
       <h1>
-        <span>Hi 👋,</span><br />
-        <span>My name is</span><br />
+        <span>Oi 👋,</span><br />
+        <span>Meu nome é</span><br />
         <span className='name'>Bruno Medeiros</span><br />
-        <span>I am a </span> 
+        <span>E eu sou </span> 
         <span className='name'> full stack </span><br />
         <span> web developer</span><br />
       </h1>

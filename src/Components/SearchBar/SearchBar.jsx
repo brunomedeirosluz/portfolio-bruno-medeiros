@@ -16,10 +16,10 @@ function SearchBar() {
           <p onClick={ () => navigate("/")}>Dev. Bruno Medeiros </p>
         </div>
         <div>
-          <p onClick={() => navigate("/")}>Home</p>
-          <p onClick={ () => navigate("/about")}>About</p>
-          <p onClick={() => navigate("/projects")}>Projects</p>
-          <p onClick={() => navigate("/contact")}>Contact</p>
+          <p onClick={() => navigate("/")}>Página inicial</p>
+          <p onClick={ () => navigate("/about")}>Sobre</p>
+          <p onClick={() => navigate("/projects")}>Projetos</p>
+          <p onClick={() => navigate("/contact")}>Contatos</p>
         </div>
         <div>
         <a 
