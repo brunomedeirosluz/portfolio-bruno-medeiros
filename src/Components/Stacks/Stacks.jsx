@@ -15,11 +15,11 @@ import './Stacks.css'
 function Stacks() {
     return (
         <section className='stacks'>
-          <div className='title'>
-            <span>My Tech Stack</span>
+          <div className='title-stacks'>
+            <span>My Stacks</span>
           </div>
           <div className='sub-title'>
-            <span>Technologies I ve been working with recently stack web developer</span>
+            <span>Tecnologias com as quais tenho trabalhado recentemente </span>
           </div>
           <div>
             <img src={Html} alt="logo css" />
