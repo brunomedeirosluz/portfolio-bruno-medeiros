@@ -36,3 +36,9 @@
 .stacks img:hover {
     transform: translateY(-5px)
 }
+
+@media (max-width: 480px) {
+    .stacks {
+        max-width: 70%;
+    }
+  }
