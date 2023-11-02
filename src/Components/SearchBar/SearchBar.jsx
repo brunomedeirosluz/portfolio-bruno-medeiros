@@ -13,15 +13,15 @@ function SearchBar() {
     return (
      <nav className="search-bar">
         <div>
-          <p onClick={ () => navigate("/")}>Dev. Bruno Medeiros </p>
+          <p className="my-name" onClick={ () => navigate("/")}>Dev. Bruno Medeiros </p>
         </div>
-        <div>
+        <div className="nav-bar">
           <p onClick={() => navigate("/")}>Página inicial</p>
           <p onClick={ () => navigate("/about")}>Sobre</p>
           <p onClick={() => navigate("/projects")}>Projetos</p>
           <p onClick={() => navigate("/contact")}>Contatos</p>
         </div>
-        <div>
+        <div className="logos">
         <a 
           href={urlLinkedin} 
           target="_blank" 

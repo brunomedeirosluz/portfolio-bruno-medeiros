@@ -3,8 +3,6 @@ import Main from './Components/Main';
 import About from './Pages/AboutPage';
 import Projects from './Pages/ProjectsPage';
 import Contact from './Pages/ContactPage';
-import './App.css';
-
 
 function App() {
   return (

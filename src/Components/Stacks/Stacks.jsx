@@ -15,7 +15,7 @@ import './Stacks.css'
 function Stacks() {
     return (
         <section className='stacks'>
-          <div className='title'>
+          <div className='title-stacks'>
             <span>My Stacks</span>
           </div>
           <div className='sub-title'>
