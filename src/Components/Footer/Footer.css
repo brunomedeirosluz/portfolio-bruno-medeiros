@@ -4,11 +4,12 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #5858583d;
+  background-color: #363636;
   color: rgba(245, 245, 245, 0.733);
   margin-top: 100px;
-  padding: 10px;
+  padding: 7px;
   text-align: center;
+  border-radius: 2px;
 }
 
 @media (max-width: 480px) {

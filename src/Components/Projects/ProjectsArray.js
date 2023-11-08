@@ -2,14 +2,14 @@ export const projectsData = [
   {
     title: "Calculadora",
     imageSrc: "https://www.gov.br/esocial/pt-br/noticias/divulgada-nova-data-para-entrada-em-producao-dos-eventos-de-processos-trabalhistas/calendario-nova-data.jpeg",
-    summary: "Calculadora inspirada na calculadora do Iphone - Utilizei Html, Css e JavaScript",
+    summary: "Calculadora inspirada na calculadora do Iphone  Utilizei Html, Css e JavaScript",
     deployLink: "https://calculadora-iphone.netlify.app",
     githubLink: "https://github.com/brunomedeirosluz/calculadora-iphone",
   },
   {
     title: "App de Receitas - Em produção",
     imageSrc: "https://www.gov.br/esocial/pt-br/noticias/prorrogada-a-entrada-em-producao-dos-eventos-de-processo-trabalhista-2/calendario-com-aviso.jpg/@@images/017a1be4-937e-403d-a33f-cff07accc3b2.jpeg",
-    summary: "Aplicativo de Receitas finalizado o Css - Utiliezei TypeScript, React, Css",
+    summary: "Aplicativo de Receitas finalizado o Css  Utiliezei TypeScript, React, Css",
   },
   {
     title: "Site de compras -  Em produção",
