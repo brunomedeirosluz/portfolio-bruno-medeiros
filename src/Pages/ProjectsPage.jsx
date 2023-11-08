@@ -9,7 +9,7 @@ function ProjectsPage() {
       <Projects />
       <Footer />
     </div>
-    )
+  )
 }
 
 export default ProjectsPage;

@@ -8,14 +8,14 @@ import "./Main.css";
 
 function Main() {
     return (
-    <div>
-        <SearchBar />
-        <Sobre /> 
-        <Stacks />
-        <Projects />
-        <Contact />
-        <Footer />
-    </div>
+        <div>
+            <SearchBar />
+            <Sobre />
+            <Stacks />
+            <Projects />
+            <Contact />
+            <Footer />
+        </div>
     )
 }
 

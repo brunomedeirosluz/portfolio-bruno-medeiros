@@ -6,6 +6,7 @@
     color: rgba(245, 245, 245, 0.733);
     margin: 0 auto;
     max-width: 50%;
+    text-align: center;
 }
 
 h3 {
@@ -26,12 +27,13 @@ h3 {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    width: 100%;
+    width: calc(45% - 20px);
     max-width: 45%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     margin: 10px;
 }
+
 
 .project-card:hover {
     transform: translateY(-5px);
@@ -67,7 +69,7 @@ h3 {
     color: #f5f5f5;
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
-}
+  }
 
 .project-links a:hover {
     background: linear-gradient(45deg, #13B0F5, #E70FAA);
@@ -83,24 +85,26 @@ h3 {
 
 @media (max-width: 480px) {
     .projects {
-        flex-direction: column;
-        max-width: 100%; 
-        align-items: center;
-        padding-top: 50px;
+        max-width: 100%;
     }
 }
 
 @media (max-width: 480px) {
-    .projects-card {
-        flex-direction: column;
-        max-width: 100%; 
-        align-items: center;
+    .project-card {
+      width: calc(50% - 20px);
+      max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-links a {
+      padding: 1px 4px; 
     }
 }
 
 .projects {
-	-webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -115,28 +119,30 @@ h3 {
  * animation scale-in-ver-center
  * ----------------------------------------
  */
- @-webkit-keyframes scale-in-ver-center {
+@-webkit-keyframes scale-in-ver-center {
     0% {
-      -webkit-transform: scaleY(0);
-              transform: scaleY(0);
-      opacity: 1;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        opacity: 1;
     }
+
     100% {
-      -webkit-transform: scaleY(1);
-              transform: scaleY(1);
-      opacity: 1;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
     }
-  }
-  @keyframes scale-in-ver-center {
+}
+
+@keyframes scale-in-ver-center {
     0% {
-      -webkit-transform: scaleY(0);
-              transform: scaleY(0);
-      opacity: 1;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        opacity: 1;
     }
+
     100% {
-      -webkit-transform: scaleY(1);
-              transform: scaleY(1);
-      opacity: 1;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
     }
-  }
-  
+}

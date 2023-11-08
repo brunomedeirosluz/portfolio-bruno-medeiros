@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-    <p className='Footer'>Projeto desenvolvido por Bruno de Medeiros</p>
+        <p className='Footer'>Projeto desenvolvido por Bruno de Medeiros</p>
     )
 }
 
