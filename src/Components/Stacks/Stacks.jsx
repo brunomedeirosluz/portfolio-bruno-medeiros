@@ -8,7 +8,8 @@ import Ts from '../../Images/ts.svg';
 import MySQL from '../../Images/mysql.svg';
 import VsCode from '../../Images/vscode.svg';
 import Redux from '../../Images/redux.svg';
-
+import Mocha from "../../Images/mocha.svg";
+import NodeJs from "../../Images/nodejs.svg";
 
 import './Stacks.css'
 
@@ -30,8 +31,10 @@ function Stacks() {
         <img src={Redux} alt="logo jest" />
         <img src={Docker} alt="logo docker" />
         <img src={MySQL} alt="logo mysql" />
+        <img src={NodeJs} alt="logo nodejs" />
         <img src={Jest} alt="logo jest" />
-        <img src={VsCode} alt="logo jest" />
+        <img src={Mocha} alt='logo mocha' />
+        <img src={VsCode} alt="logo vscode" />
       </div>
     </section>
   )

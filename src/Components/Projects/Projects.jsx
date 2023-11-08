@@ -1,5 +1,7 @@
 import "./Projects.css";
 import { projectsData } from "./ProjectsArray";
+import Deploy from "../../Images/deploy.svg";
+import Github from "../../Images/github.svg";
 
 function Projects() {
   return (
@@ -14,12 +16,12 @@ function Projects() {
             <div className="project-links">
               {project.deployLink && (
                 <a href={project.deployLink} target="_blank" rel="noopener noreferrer">
-                  Deploy
+                  <img src={Deploy}/> Deploy
                 </a>
               )}
               {project.githubLink && (
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                  GitHub
+                  <img src={Github} /> GitHub
                 </a>
               )}
             </div>
