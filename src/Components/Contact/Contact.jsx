@@ -1,5 +1,5 @@
 import { useState } from "react";
-import closeImg from "../../Images/close.svg" 
+import closeImg from "../../Images/close.svg"
 import gif from "../../Images/success.gif"
 import "./Contact.css";
 
@@ -40,28 +40,28 @@ function Contact() {
         action="https://formsubmit.co/brunomedeirosluz@gmail.com"
         method="POST"
         className="contact-form"
-        onSubmit={ handleSubmit }
+        onSubmit={handleSubmit}
       >
         <input
           type="text"
           name="name"
           placeholder="Nome"
-          value={ name }
-          onChange={ (e) => setName(e.target.value) }
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           required
         />
-        <input 
-          type="email" 
-          name="email" 
-          placeholder="E-mail" 
-          value={ email }
-          onChange={ (e) => setEmail(e.target.value) }
-          required 
+        <input
+          type="email"
+          name="email"
+          placeholder="E-mail"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
         />
-        <textarea 
-          name="about" 
-          placeholder="Sobre" 
-          value={ about }
+        <textarea
+          name="about"
+          placeholder="Sobre"
+          value={about}
           onChange={(e) => setAbout(e.target.value)}
           required />
         <button type="submit">Enviar</button>
@@ -71,8 +71,8 @@ function Contact() {
         <div className="custom-alert">
           <img className="gif" src={gif} alt="gif de sucesso" />
           <p>E-mail enviado com sucesso! Em breve entrarei em contato.</p>
-          <button onClick={ closeAlert } className="close-button">
-            <img src={closeImg} alt="svg de fechar"/>
+          <button onClick={closeAlert} className="close-button">
+            <img src={closeImg} alt="svg de fechar" />
           </button>
         </div>
       )}

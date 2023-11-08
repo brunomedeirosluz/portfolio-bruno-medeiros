@@ -49,25 +49,24 @@
         align-content: center;
         align-self: center;
     }
-  }
+}
 
 @media (max-width: 480px) {
     .search-bar p {
         align-content: center;
-  }
+    }
 }
 
 @media (max-width: 480px) {
     .search-bar img {
         width: 40px;
         align-items: baseline;
-  }
+    }
 }
 
 @media (max-width: 480px) {
-    .my-name  {
+    .my-name {
         max-width: 100%;
         align-items: center;
-  }
+    }
 }
-  

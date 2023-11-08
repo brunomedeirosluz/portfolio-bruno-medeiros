@@ -5,9 +5,9 @@ import Footer from "../Components/Footer/Footer";
 function ContactPage() {
   return (
     <div>
-    <SearchBar />
-    <Contact />
-    <Footer />
+      <SearchBar />
+      <Contact />
+      <Footer />
     </div>
   );
 }

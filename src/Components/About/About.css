@@ -13,7 +13,8 @@
   margin: 90px auto;
   border: 1px solid rgba(245, 245, 245, 0.213);
   border-radius: 10px;
-  background-color: #9c9b9b15;;
+  background-color: #9c9b9b15;
+  ;
 }
 
 .eu {
@@ -35,14 +36,14 @@ p {
 
 @media (max-width: 480px) {
   .background {
-      align-items: center;
-      max-width: 90%;
+    align-items: center;
+    max-width: 90%;
   }
 }
 
 .background {
-	-webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -57,27 +58,30 @@ p {
  * animation tilt-in-fwd-tl
  * ----------------------------------------
  */
- @-webkit-keyframes scale-in-ver-center {
+@-webkit-keyframes scale-in-ver-center {
   0% {
     -webkit-transform: scaleY(0);
-            transform: scaleY(0);
+    transform: scaleY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
     opacity: 1;
   }
 }
+
 @keyframes scale-in-ver-center {
   0% {
     -webkit-transform: scaleY(0);
-            transform: scaleY(0);
+    transform: scaleY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
     opacity: 1;
   }
 }
