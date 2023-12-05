@@ -35,7 +35,7 @@ function Contact() {
 
   return (
     <div className="contact-container">
-      <h1 className="name-form">Formulário para Contato:</h1>
+      <h1 className="name-form">Formulário para Contato</h1>
       <form
         action="https://formsubmit.co/brunomedeirosluz@gmail.com"
         method="POST"

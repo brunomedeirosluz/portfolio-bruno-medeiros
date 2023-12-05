@@ -1,5 +1,5 @@
 import './Sobre.css';
-import imagem from '../../Images/eu.svg'
+import imagem from '../../Images/eu.png'
 
 function Sobre() {
     return (
@@ -9,12 +9,12 @@ function Sobre() {
             </div>
             <div className='tracking-in-expand'>
                 <h1>
-                    <span>Oi 👋,</span><br />
+                    <span>Olá,</span><br />
                     <span>Meu nome é</span><br />
-                    <span className='name'>Bruno de Medeiros</span><br />
+                    <span>Bruno de Medeiros</span><br />
                     <span>E eu sou </span>
-                    <span className='name'> full stack </span><br />
-                    <span>web developer</span><br />
+                    <span> Desenvolvedor Web </span><br />
+                    <span>Full Stack</span><br />
                 </h1>
             </div>
         </section>

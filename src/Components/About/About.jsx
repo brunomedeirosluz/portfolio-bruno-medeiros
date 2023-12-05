@@ -1,4 +1,4 @@
-import Eu from "../../Images/eu.svg";
+import Eu from "../../Images/eu.png";
 import "./About.css";
 
 function About() {
