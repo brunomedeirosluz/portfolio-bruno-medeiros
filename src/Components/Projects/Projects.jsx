@@ -6,7 +6,7 @@ import Github from "../../Images/github.svg";
 function Projects() {
   return (
     <section className="projects">
-      <h3>Meus Projetos:</h3>
+      <h3>Meus Projetos</h3>
       <div className="project-cards">
         {projectsData.map((project, index) => (
           <div key={index} className="project-card">

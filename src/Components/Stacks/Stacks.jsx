@@ -20,7 +20,7 @@ function Stacks() {
         <span>My Stacks</span>
       </div>
       <div className='sub-title'>
-        <span>Tecnologias com as quais tenho trabalhado recentemente </span>
+        <span>Tecnologias com as quais tenho trabalhado e estudado recentemente </span>
       </div>
       <div>
         <img src={Html} alt="logo css" />
